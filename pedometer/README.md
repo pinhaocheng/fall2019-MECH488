@@ -13,3 +13,9 @@ A smartphone can be a powerful tool for an engineer. Mobile apps are available t
 ### Task
 
 Your task in the assignment is to create a pedometer using a smartphone’s accelerometer. Download an app that allows you to export acceleration data.
+
+### Solution
+
+The csv files were imported into calculateTotalAccel.m to compute the total acceleration, which was equal to the square root of the sum of the square accelerations in the x, y, and z directions. The purpose of calculating the total acceleration is that during gait, there is acceleration not only in the walking direction, but also in the gravitational direction and minute acceleration in the lateral direction. Calculating the total acceleration will give a more complete view of what is occurring during the walking and running trails.
+
+After computing the total acceleration, pedometer.m was then used to generate the total number of strides from the data. MATLAB’s built in function findpeaks was incorporated in the code, as its purpose was to find and label the peaks in a plotted figure. The number of peaks was then determined by taking half of the number of peak points returned by the function findpeaks, as one stride is defined as two steps, one for each foot.
