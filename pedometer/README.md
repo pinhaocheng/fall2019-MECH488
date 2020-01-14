@@ -1,8 +1,7 @@
 # MECH 488 Kinematics and Machine Design Lab
 
 ## LAB ASSIGNMENT NO 6
-
-## Using your cell phone as a measurement device
+Using your cell phone as a measurement device
 
 ### Introduction
 
