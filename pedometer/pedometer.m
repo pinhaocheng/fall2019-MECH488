@@ -1,3 +1,5 @@
+# code written by: Pin Hao Cheng
+
 function [] = pedometer(name)
 
 %import table with data
