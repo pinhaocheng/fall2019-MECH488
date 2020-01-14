@@ -1,3 +1,5 @@
+# code written by: Pin Hao Cheng
+
 function[] = calculateTotalAccel( name )
 
 raw = readtable(name);
